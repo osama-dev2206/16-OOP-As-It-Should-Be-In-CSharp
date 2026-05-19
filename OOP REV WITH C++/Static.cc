@@ -18,12 +18,13 @@ void Count2()
 class Static
 {   public:
     static int x;
+    int y ; // non static data member 
 
  
     Static()
     {
         x=10;
-        this->x=10; 
+        this->x=10; // you can use static data member inside non static method
     }
 
     void NonStatic()
@@ -33,7 +34,10 @@ class Static
     static void StaticMethod()
     {
         x=1900;
+       //  y=90; ==> you cann't use non static data members with static method
     }
+
+
 };
 int Static::x = 10; // static data memeber, should be intialized outside class
 
