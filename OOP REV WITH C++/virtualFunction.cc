@@ -28,5 +28,5 @@ int main()
     s1.Function();
 
     Super *U = &s;
-    U->Function(); 
+    U->Function();  // late / dynamic binding 
 }
