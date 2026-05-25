@@ -15,8 +15,7 @@ namespace OOP_With_C_Sharp
         //// Constructor 
         public clsPerson()
         {
-            //   clsPerson._Id++; ==> you can access this data member by get property only as it is auto implemented property 
-            Id++;
+             Id++;
         }
 
 
@@ -55,9 +54,7 @@ namespace OOP_With_C_Sharp
         public string fname{ set; get; }
         public string lname { set; get; }
         public sbyte Age { set; get; }
-
-        public short Id { get;  } // read only property ==> non-static 
-
+        public static short Id { get; private set; } // you can edit the id value in the class scope only ! 
 
         public string Type // ===> i didn't use auto implemented properties as i want to make my own implementation for them 
         {
@@ -71,7 +68,7 @@ namespace OOP_With_C_Sharp
 
         public void PrintPersonDetails()
         {
-            Console.WriteLine($"The First Name Is : {fname}\nThe Last Name Is: {lname}\nThe Full Name Is: {fname+' '+lname}\nThe Age Is: {Age}\nPerson's Id: {Id}");
+            Console.WriteLine($"The First Name Is : {fname}\nThe Last Name Is: {lname}\nThe Full Name Is: {fname+' '+lname}\nThe Age Is: {Age}\nPerson's Id:{Id} ");
         }
 
 
