@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OOP With C-Sharp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+625262d44c022cbd9763aae1f905a27aa07d4470")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43a9fdded3b6c772876d2205e9e4eb93a732b245")]
 [assembly: System.Reflection.AssemblyProductAttribute("OOP With C-Sharp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OOP With C-Sharp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

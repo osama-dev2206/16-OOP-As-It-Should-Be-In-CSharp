@@ -48,8 +48,16 @@ internal class Program // you can not write any function or whatever in c# witho
         // A.protectedMethod(); i couldn't access it because it is protected  method  member (accessible in the class which inherits the current class)
 
 
+        clsB b = new clsB();
+        b.x1 = 90; // (data member from clsA ) accessible in the dervied class because i have inherited the class clsA and it is public data member , so you can access it 
 
+        b.print(); // (method from clsA) acccessible in derived class because it is public method in the super class
+                   // and i have inherited the class clsA , so i can access it 
 
+        // b.protectedMethod();  // you cann't access protected method although i have inherited it because
+        // protected is only accessible in the dervied class && the same class
+
+        // b.test(); // i couldn;t access it because it is private method 
     }
 }
 
