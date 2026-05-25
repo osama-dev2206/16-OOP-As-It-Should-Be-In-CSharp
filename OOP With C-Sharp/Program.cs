@@ -80,6 +80,34 @@ internal class Program // you can not write any function or whatever in c# witho
         //Static.StaticMethod(); 
 
 
+        clsPerson person1 = new clsPerson(); // object/instance of clsPerson class 
+
+        // call the property set  
+        person1.fname = "jana";
+        person1.lname = "Ahmed";
+        person1.Age = 20;
+        person1.Type = "female";
+
+        // call the property get 
+        Console.WriteLine(person1.fname); 
+        Console.WriteLine(person1.lname);
+        Console.WriteLine(person1.Age.ToString());
+        Console.WriteLine(person1.Type);
+
+        Console.WriteLine();
+
+        person1.PrintPersonDetails();
+
+
+        clsPerson person2 = new clsPerson(); // object/instance of clsPerson class 
+
+        // call the property set  
+        person2.fname = "jana";
+        person2.lname = "Ahmed";
+        person2.Age = 20;
+        person2.Type = "female";
+     
+        person2.PrintPersonDetails();   
 
     }
 }
