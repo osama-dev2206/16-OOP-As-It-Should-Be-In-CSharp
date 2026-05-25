@@ -1,0 +1,15 @@
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\bin\Debug\net10.0\OOP With C-Sharp.exe
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\bin\Debug\net10.0\OOP With C-Sharp.deps.json
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\bin\Debug\net10.0\OOP With C-Sharp.runtimeconfig.json
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\bin\Debug\net10.0\OOP With C-Sharp.dll
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\bin\Debug\net10.0\OOP With C-Sharp.pdb
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\obj\Debug\net10.0\OOP With C-Sharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\obj\Debug\net10.0\OOP With C-Sharp.AssemblyInfoInputs.cache
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\obj\Debug\net10.0\OOP With C-Sharp.AssemblyInfo.cs
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\obj\Debug\net10.0\OOP With C-Sharp.csproj.CoreCompileInputs.cache
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\obj\Debug\net10.0\OOP With C-Sharp.sourcelink.json
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\obj\Debug\net10.0\OOP With C-Sharp.dll
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\obj\Debug\net10.0\refint\OOP With C-Sharp.dll
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\obj\Debug\net10.0\OOP With C-Sharp.pdb
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\obj\Debug\net10.0\OOP With C-Sharp.genruntimeconfig.cache
+D:\Self-Study\C#\16- C# OOP\OOP With C-Sharp\obj\Debug\net10.0\ref\OOP With C-Sharp.dll
