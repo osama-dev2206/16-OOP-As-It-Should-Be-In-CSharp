@@ -115,6 +115,9 @@ internal class Program // you can not write any function or whatever in c# witho
         Console.WriteLine(Settings.DayNumber);
        Console.WriteLine( Settings.MonthNumber);
 
+        Settings.Path = @"sonds//hi//projects";
+        Console.WriteLine(Settings.Path);
+
     }
 }
 

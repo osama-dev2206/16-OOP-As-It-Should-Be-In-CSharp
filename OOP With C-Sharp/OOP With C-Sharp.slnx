@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="../Calculator/Calculator.csproj" Id="76e960c7-6a18-4757-ac38-66c886f1658e" />
   <Project Path="OOP With C-Sharp.csproj" />
 </Solution>
