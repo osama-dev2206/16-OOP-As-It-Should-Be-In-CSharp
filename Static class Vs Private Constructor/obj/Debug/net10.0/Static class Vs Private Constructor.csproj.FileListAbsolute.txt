@@ -1,0 +1,15 @@
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\bin\Debug\net10.0\Static class Vs Private Constructor.exe
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\bin\Debug\net10.0\Static class Vs Private Constructor.deps.json
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\bin\Debug\net10.0\Static class Vs Private Constructor.runtimeconfig.json
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\bin\Debug\net10.0\Static class Vs Private Constructor.dll
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\bin\Debug\net10.0\Static class Vs Private Constructor.pdb
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\obj\Debug\net10.0\Static class Vs Private Constructor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\obj\Debug\net10.0\Static class Vs Private Constructor.AssemblyInfoInputs.cache
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\obj\Debug\net10.0\Static class Vs Private Constructor.AssemblyInfo.cs
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\obj\Debug\net10.0\Static class Vs Private Constructor.csproj.CoreCompileInputs.cache
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\obj\Debug\net10.0\Static class Vs Private Constructor.sourcelink.json
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\obj\Debug\net10.0\Static class Vs Private Constructor.dll
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\obj\Debug\net10.0\refint\Static class Vs Private Constructor.dll
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\obj\Debug\net10.0\Static class Vs Private Constructor.pdb
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\obj\Debug\net10.0\Static class Vs Private Constructor.genruntimeconfig.cache
+D:\Self-Study\C#\16- C# OOP\Static class Vs Private Constructor\obj\Debug\net10.0\ref\Static class Vs Private Constructor.dll

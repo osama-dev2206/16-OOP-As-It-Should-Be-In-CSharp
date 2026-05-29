@@ -9,8 +9,12 @@
               naccessible due to its protection level 
             */
 
-            // clsPrivateConstructor Priv = new clsPrivateConstructor(); // you can not make an object of this class
+            //clsPrivateConstructor Priv = new clsPrivateConstructor(); // you can not make an object of this class
 
+
+            //  StaticClass x = new StaticClass();
+
+            StaticClass.Method(); // static method 
         }
 
     }

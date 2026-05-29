@@ -120,10 +120,23 @@ internal class Program // you can not write any function or whatever in c# witho
 
 
         //  clsConstructor obj = new clsConstructor(Id:"24566",name:"mohammed",age:20); // ==> will call the paramterized  constructor 
-        clsConstructor obj = new clsConstructor(); // because i didn't implement any constructor , compiler will automatically invoke the default constructor to intialize the unintilized data members
-         Console.WriteLine($"Name : {obj.name}");
+        //clsConstructor obj = new clsConstructor(); // because i didn't implement any constructor , compiler will automatically invoke the default constructor to intialize the unintilized data members
+        // Console.WriteLine($"Name : {obj.name}");
+        //Console.WriteLine($"Age: {obj.age}");
+        //Console.WriteLine($"Id : {obj.id}");
+
+        Console.WriteLine("_________The Object Intilized By Paramterless Constructor_______");
+        clsConstructor obj = new clsConstructor(); // will call the paramterless constructor 
+        Console.WriteLine($"Name : {obj.name}");
         Console.WriteLine($"Age: {obj.age}");
         Console.WriteLine($"Id : {obj.id}");
+
+        Console.WriteLine("_________The Object Intilized By Paramterized Constructor_______");
+        clsConstructor obj2 = new clsConstructor("Jana","9090",22); // will call the paramterized constructor 
+        Console.WriteLine($"Name : {obj2.name}");
+        Console.WriteLine($"Age: {obj2.age}");
+        Console.WriteLine($"Id : {obj2.id}");
+
 
     }
 }
