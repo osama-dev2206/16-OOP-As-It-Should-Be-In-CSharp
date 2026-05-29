@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="../Calculator/Calculator.csproj" Id="76e960c7-6a18-4757-ac38-66c886f1658e" />
+  <Project Path="../Static class Vs Private Constructor/Static class Vs Private Constructor.csproj" Id="224c77dd-278f-4927-8de3-9471b23314f8" />
   <Project Path="OOP With C-Sharp.csproj" />
 </Solution>

@@ -34,7 +34,7 @@ class clsB : clsA  // dervied class of class A
 
 
 internal class Program // you can not write any function or whatever in c# without class as it is pure oop like java 
-{ 
+{
     static void Main(string[] args) // entry point for the program 
     {
         //clsA A = new clsA();
@@ -111,12 +111,19 @@ internal class Program // you can not write any function or whatever in c# witho
 
         //Settings s = new s; // you can not make an instance of static class 
 
-       Console.WriteLine( Settings.FullDate);
-        Console.WriteLine(Settings.DayNumber);
-       Console.WriteLine( Settings.MonthNumber);
+        //Console.WriteLine( Settings.FullDate);
+        // Console.WriteLine(Settings.DayNumber);
+        //Console.WriteLine( Settings.MonthNumber);
 
-        Settings.Path = @"sonds//hi//projects";
-        Console.WriteLine(Settings.Path);
+        // Settings.Path = @"sonds//hi//projects";
+        // Console.WriteLine(Settings.Path);
+
+
+        //  clsConstructor obj = new clsConstructor(Id:"24566",name:"mohammed",age:20); // ==> will call the paramterized  constructor 
+        clsConstructor obj = new clsConstructor(); // because i didn't implement any constructor , compiler will automatically invoke the default constructor to intialize the unintilized data members
+         Console.WriteLine($"Name : {obj.name}");
+        Console.WriteLine($"Age: {obj.age}");
+        Console.WriteLine($"Id : {obj.id}");
 
     }
 }

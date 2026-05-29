@@ -6,18 +6,19 @@ namespace Calculator
 {
     internal class clsCalculator
     {
-         enum _enOperation:SByte{Add=1,Sub=2,Multi=3,Div=4}; // enum of operations
-        _enOperation  ? _CurrentOp;  // instance of enum used to track operations (nullable)
+        enum _enOperation : SByte { Add = 1, Sub = 2, Multi = 3, Div = 4 }; // enum of operations
+        _enOperation? _CurrentOp;  // instance of enum used to track operations (nullable)
         _enOperation? _ThePrevOperation;
 
-        private  int ?  _Value {set;  get; } // data member used to make operations on it (auto implemented set , get ) 
+        private double? _Value { set; get; } // data member used to make operations on it (auto implemented set , get ) 
 
-        public int ?ThePrevValue { private set;  get; }
+        public double? ThePrevValue { private set; get; }
 
-        public void PrintResult() {
-            Console.WriteLine(); 
+        public void PrintResult()
+        {
+            Console.WriteLine();
 
-            if (!IsNullValue()) 
+            if (!IsNullValue())
                 Console.WriteLine($"The Result Is = {_Value}");
             else Console.WriteLine("ERROR");
 
@@ -25,13 +26,14 @@ namespace Calculator
             else Console.WriteLine("Invalid Operation ! \a");
         }
 
-        public string? ThePrevOperation {
+        public string? ThePrevOperation
+        {
             get { return _ThePrevOperation.ToString(); }
         }
 
         private bool IsNullValue()
         {
-            return ( !_Value.HasValue );
+            return (!_Value.HasValue);
         }
 
         private void RemoveNullFromValue()
@@ -39,28 +41,28 @@ namespace Calculator
             _Value = _Value.GetValueOrDefault();
         }
 
-        public void Add(int value)
+        public void Add(double value)
         {
             ThePrevValue = _Value;
             _ThePrevOperation = _CurrentOp;
 
             if (IsNullValue()) RemoveNullFromValue();
-             _Value += value;
+            _Value += value;
             _CurrentOp = _enOperation.Add;
         }
 
-        public void Sub(int value)
+        public void Sub(double value)
         {
             ThePrevValue = _Value; // save the current value  as prev 
             _ThePrevOperation = _CurrentOp;
 
             if (IsNullValue()) RemoveNullFromValue();
             _Value -= value; // set the new value 
-            
+
             _CurrentOp = _enOperation.Sub;
         }
 
-        public void Multi(int value)
+        public void Multi(double value)
         {
             ThePrevValue = _Value; // save the current value  as prev 
             _ThePrevOperation = _CurrentOp;
@@ -71,7 +73,7 @@ namespace Calculator
             _CurrentOp = _enOperation.Multi;
         }
 
-        public void Div(int value)
+        public void Div(double value)
         {
             ThePrevValue = _Value; // save the current value  as prev 
             _ThePrevOperation = _CurrentOp;
@@ -84,17 +86,17 @@ namespace Calculator
             }
             else
             {
-                _CurrentOp = null; 
+                _CurrentOp = null;
             }
 
         }
 
-      public  void Clear()
+        public void Clear()
         {
             _Value = null;
-            _ThePrevOperation =null;
+            _ThePrevOperation = null;
             _CurrentOp = null;
-            ThePrevValue = null; 
+            ThePrevValue = null;
         }
 
 
