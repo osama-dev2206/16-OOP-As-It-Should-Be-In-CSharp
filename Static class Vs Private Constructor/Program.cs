@@ -14,7 +14,21 @@
 
             //  StaticClass x = new StaticClass();
 
-            StaticClass.Method(); // static method 
+            //StaticClass.Method(); // static method 
+
+
+            //  ClassStatic x = new ClassStatic();// you cannot create an instance of static class 
+
+            // static constructor will be called once only !
+            ClassStatic.MyProperty = 100;
+            ClassStatic.MyProperty1 = "hello";
+            Console.WriteLine(ClassStatic.MyProperty );
+
+
+            Console.WriteLine(ClassStatic.MyProperty1);
+            ClassStatic.print();
+
+
         }
 
     }
