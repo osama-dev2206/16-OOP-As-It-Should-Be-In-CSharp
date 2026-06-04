@@ -44,7 +44,7 @@ namespace Inheritance
 
         public new void AnotherPrint() // method hiding (shadowing)
         {
-            Console.WriteLine("Hello From Super Class2");
+            Console.WriteLine("Hello From Sub Class2");
         }
 
     }
