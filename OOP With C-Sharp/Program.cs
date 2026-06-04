@@ -137,26 +137,26 @@ internal class Program // you can not write any function or whatever in c# witho
         //Console.WriteLine($"Age: {obj2.age}");
         //Console.WriteLine($"Id : {obj2.id}");
 
+        Person.Find("");
+        //Person p = new Person("hi","os",20,"hios_202","2566","P1234");
 
-        Person p = new Person("hi","os",20,"hios_202","2566","P1234");
+        //if(Person.Find("hios_202", "P1234") != null)
+        //{
+        //    Console.WriteLine("This User Exists (After Searching It By User  & Pass)!");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("Doesn't Exist!\a"); 
+        //}
 
-        if(Person.Find("hios_202", "P1234") != null)
-        {
-            Console.WriteLine("This User Exists (After Searching It By User  & Pass)!");
-        }
-        else
-        {
-            Console.WriteLine("Doesn't Exist!\a"); 
-        }
-
-        if (Person.Find("2566") != null)
-        {
-            Console.WriteLine("This User Exists (After Searching It By Id)!");
-        }
-        else
-        {
-            Console.WriteLine("Doesn't Exist!\a");
-        }
+        //if (Person.Find("2566") != null)
+        //{
+        //    Console.WriteLine("This User Exists (After Searching It By Id)!");
+        //}
+        //else
+        //{
+        //    Console.WriteLine("Doesn't Exist!\a");
+        //}
 
     }
 }

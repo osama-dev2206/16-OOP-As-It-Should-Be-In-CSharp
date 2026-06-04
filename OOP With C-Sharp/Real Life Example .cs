@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Runtime.Intrinsics.Arm;
+using System.Runtime.Versioning;
 using System.Text;
 
 namespace OOP_With_C_Sharp
@@ -67,7 +68,7 @@ namespace OOP_With_C_Sharp
         }
 
 
-        public static Person Find(string username, string password)
+        protected static Person Find(string username, string password)
         {
             Person Obj = null;
             foreach (string record in File.ReadAllLines(FileName))
@@ -79,8 +80,20 @@ namespace OOP_With_C_Sharp
             return null;
         }
 
+        public void Print() { }
 
     }
 
+     class Employee : Person
+    {
+        public Employee(string fname, string lname, sbyte age, string username, string id, string password)
+            : base(fname , lname , age , username , id , password)
+        {
+             Find("","");  // static method from super class 
+            base.Print(); // method member of super class 
+        }
+
+
+    }
 
     }

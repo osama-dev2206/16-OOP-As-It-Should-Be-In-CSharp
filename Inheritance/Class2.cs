@@ -2,11 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-// Top Level Statement  
-void Test()
-{
-    Console.Write("dfsdfs");
-}
+
 
 namespace Inheritance
 {
