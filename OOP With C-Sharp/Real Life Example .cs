@@ -8,7 +8,7 @@ namespace OOP_With_C_Sharp
 
     internal class Person
     {
-        // static data members are shared between all objects 
+        // static data members are shared between all objects , call only on the class level 
         static readonly string Delmi = "#//#";
         static readonly string FileName = "persons.text"; // this property is on class level not object level as it is shared between all objects of this class 
         
@@ -18,10 +18,9 @@ namespace OOP_With_C_Sharp
         sbyte Age { get; set; }
         string UserName { get; set; }
         string Id { get; set; }
-
         string Password { get; set; }
 
-        // Paramterized Constructor To Force User To Make A Proper Object
+        // Paramterized Constructor To Force User To Make A Proper Object with these arguments 
         public Person(string fname, string laname, sbyte age, string username, string id, string password)
         {
             // will call the property get
@@ -36,7 +35,7 @@ namespace OOP_With_C_Sharp
             WriteToFile(); 
         }
 
-        // Read/Write To File 
+        // Read,Write To File 
         private string RecordLine()
         {
             return (this.Fname + Delmi + this.Lname + Delmi + this.Age + Delmi + this.UserName + Delmi + this.Id + Delmi + this.Password);
@@ -82,4 +81,6 @@ namespace OOP_With_C_Sharp
 
 
     }
+
+
     }

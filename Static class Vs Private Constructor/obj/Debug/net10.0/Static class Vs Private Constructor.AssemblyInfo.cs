@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Static class Vs Private Constructor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc588137b7084fd305e3e64d08cf49316feb389b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eba310e09b2448787adbce02fa22486ca112ed17")]
 [assembly: System.Reflection.AssemblyProductAttribute("Static class Vs Private Constructor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Static class Vs Private Constructor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
