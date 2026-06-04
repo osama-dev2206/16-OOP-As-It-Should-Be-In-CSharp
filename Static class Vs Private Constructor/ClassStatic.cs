@@ -41,8 +41,9 @@ namespace Static_class_Vs_Private_Constructor
         // static constructor cann't be overloaded 
         //static ClassStatic()
         //{
-      
+
         //}
+    
 
     }
 }

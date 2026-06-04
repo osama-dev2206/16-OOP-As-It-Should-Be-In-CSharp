@@ -72,6 +72,13 @@ namespace OOP_With_C_Sharp
         }
 
 
+        // Destructor is called implictly when the life time of object ends 
+        // Destructor cann't have access modifier , parameters 
+        ~clsPerson() // called implictly by GC 
+        {
+            Console.WriteLine("Hello iam destructor!");
+        }
+
     }
 
 }

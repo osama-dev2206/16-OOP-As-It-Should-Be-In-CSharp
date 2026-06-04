@@ -125,18 +125,38 @@ internal class Program // you can not write any function or whatever in c# witho
         //Console.WriteLine($"Age: {obj.age}");
         //Console.WriteLine($"Id : {obj.id}");
 
-        Console.WriteLine("_________The Object Intilized By Paramterless Constructor_______");
-        clsConstructor obj = new clsConstructor(); // will call the paramterless constructor 
-        Console.WriteLine($"Name : {obj.name}");
-        Console.WriteLine($"Age: {obj.age}");
-        Console.WriteLine($"Id : {obj.id}");
+        //Console.WriteLine("_________The Object Intilized By Paramterless Constructor_______");
+        //clsConstructor obj = new clsConstructor(); // will call the paramterless constructor 
+        //Console.WriteLine($"Name : {obj.name}");
+        //Console.WriteLine($"Age: {obj.age}");
+        //Console.WriteLine($"Id : {obj.id}");
 
-        Console.WriteLine("_________The Object Intilized By Paramterized Constructor_______");
-        clsConstructor obj2 = new clsConstructor("Jana","9090",22); // will call the paramterized constructor 
-        Console.WriteLine($"Name : {obj2.name}");
-        Console.WriteLine($"Age: {obj2.age}");
-        Console.WriteLine($"Id : {obj2.id}");
+        //Console.WriteLine("_________The Object Intilized By Paramterized Constructor_______");
+        //clsConstructor obj2 = new clsConstructor("Jana","9090",22); // will call the paramterized constructor 
+        //Console.WriteLine($"Name : {obj2.name}");
+        //Console.WriteLine($"Age: {obj2.age}");
+        //Console.WriteLine($"Id : {obj2.id}");
 
+
+        Person p = new Person("hi","os",20,"hios_202","2566","P1234");
+
+        if(Person.Find("hios_202", "P1234") != null)
+        {
+            Console.WriteLine("This User Exists (After Searching It By User  & Pass)!");
+        }
+        else
+        {
+            Console.WriteLine("Doesn't Exist!\a"); 
+        }
+
+        if (Person.Find("2566") != null)
+        {
+            Console.WriteLine("This User Exists (After Searching It By Id)!");
+        }
+        else
+        {
+            Console.WriteLine("Doesn't Exist!\a");
+        }
 
     }
 }
