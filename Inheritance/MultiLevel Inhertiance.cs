@@ -8,10 +8,10 @@ namespace Inheritance
     class Person // super class 
     {
         public string name { get; set; }
-        public sbyte age { get; set; }
+        public byte age { get; set; }
         public string Id { get; set; }
 
-        public Person(string name, sbyte age, string id) // paramterized constructor   
+        public Person(string name, byte age, string id) // paramterized constructor   
         {
             this.name = name;
             this.age = age;
@@ -33,7 +33,7 @@ namespace Inheritance
         public double Salary { get; set; }
 
         // pass the required arguments to the base class to enable me to create an object of this class
-        public Employee(string name, sbyte age, string id, string department, double salary) :
+        public Employee(string name, byte age, string id, string department, double salary) :
             base(name, age, id)
         {
             this.Department = department;
@@ -55,12 +55,13 @@ namespace Inheritance
     {
         public string Heal { get; set; }
 
-        public Doctor(string name, sbyte age, string id, string department, double salary, string Heal)
+        public Doctor(string name, byte age, string id, string department, double salary, string Heal)
             : base(name, age, id, department, salary)
         {
             this.Heal = Heal;
         }
 
+        // Method Hiding 
         public new void Print()
         {
             base.Print();
