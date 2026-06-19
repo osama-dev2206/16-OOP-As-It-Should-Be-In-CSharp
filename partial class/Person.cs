@@ -21,6 +21,13 @@ namespace partial_class
             LastName = lastName;
         }
 
+        //1. partial method can be any return type 
+        //2. partial method can be defined only in partial class 
+     private  partial string Contact(); // ==> cannot be accessed outside class as it is private btw ! 
+
+       public  partial void Post(); // declaration of partial method 
+
+        partial void Delete();
 
     }
 }
