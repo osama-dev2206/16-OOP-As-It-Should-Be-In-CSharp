@@ -1,0 +1,15 @@
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\bin\Debug\net8.0\C# OOP OLd Ver.exe
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\bin\Debug\net8.0\C# OOP OLd Ver.deps.json
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\bin\Debug\net8.0\C# OOP OLd Ver.runtimeconfig.json
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\bin\Debug\net8.0\C# OOP OLd Ver.dll
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\bin\Debug\net8.0\C# OOP OLd Ver.pdb
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\obj\Debug\net8.0\C# OOP OLd Ver.GeneratedMSBuildEditorConfig.editorconfig
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\obj\Debug\net8.0\C# OOP OLd Ver.AssemblyInfoInputs.cache
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\obj\Debug\net8.0\C# OOP OLd Ver.AssemblyInfo.cs
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\obj\Debug\net8.0\C# OOP OLd Ver.csproj.CoreCompileInputs.cache
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\obj\Debug\net8.0\C# OOP OLd Ver.sourcelink.json
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\obj\Debug\net8.0\C# OOP OLd Ver.dll
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\obj\Debug\net8.0\refint\C# OOP OLd Ver.dll
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\obj\Debug\net8.0\C# OOP OLd Ver.pdb
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\obj\Debug\net8.0\C# OOP OLd Ver.genruntimeconfig.cache
+D:\Self-Study\C#\16- C# OOP\C# OOP OLd Ver\obj\Debug\net8.0\ref\C# OOP OLd Ver.dll
