@@ -1,0 +1,15 @@
+D:\Self-Study\C#\16- C# OOP\partial class\bin\Debug\net10.0\partial class.exe
+D:\Self-Study\C#\16- C# OOP\partial class\bin\Debug\net10.0\partial class.deps.json
+D:\Self-Study\C#\16- C# OOP\partial class\bin\Debug\net10.0\partial class.runtimeconfig.json
+D:\Self-Study\C#\16- C# OOP\partial class\bin\Debug\net10.0\partial class.dll
+D:\Self-Study\C#\16- C# OOP\partial class\bin\Debug\net10.0\partial class.pdb
+D:\Self-Study\C#\16- C# OOP\partial class\obj\Debug\net10.0\partial class.GeneratedMSBuildEditorConfig.editorconfig
+D:\Self-Study\C#\16- C# OOP\partial class\obj\Debug\net10.0\partial class.AssemblyInfoInputs.cache
+D:\Self-Study\C#\16- C# OOP\partial class\obj\Debug\net10.0\partial class.AssemblyInfo.cs
+D:\Self-Study\C#\16- C# OOP\partial class\obj\Debug\net10.0\partial class.csproj.CoreCompileInputs.cache
+D:\Self-Study\C#\16- C# OOP\partial class\obj\Debug\net10.0\partial class.sourcelink.json
+D:\Self-Study\C#\16- C# OOP\partial class\obj\Debug\net10.0\partial class.dll
+D:\Self-Study\C#\16- C# OOP\partial class\obj\Debug\net10.0\refint\partial class.dll
+D:\Self-Study\C#\16- C# OOP\partial class\obj\Debug\net10.0\partial class.pdb
+D:\Self-Study\C#\16- C# OOP\partial class\obj\Debug\net10.0\partial class.genruntimeconfig.cache
+D:\Self-Study\C#\16- C# OOP\partial class\obj\Debug\net10.0\ref\partial class.dll
