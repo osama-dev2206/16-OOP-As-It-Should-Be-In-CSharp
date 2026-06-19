@@ -13,3 +13,4 @@ D:\Self-Study\C#\16- C# OOP\Inheritance\obj\Debug\net10.0\refint\Inheritance.dll
 D:\Self-Study\C#\16- C# OOP\Inheritance\obj\Debug\net10.0\Inheritance.pdb
 D:\Self-Study\C#\16- C# OOP\Inheritance\obj\Debug\net10.0\Inheritance.genruntimeconfig.cache
 D:\Self-Study\C#\16- C# OOP\Inheritance\obj\Debug\net10.0\ref\Inheritance.dll
+D:\Self-Study\C#\16- C# OOP\Inheritance\obj\Debug\net10.0\Inheritance.csproj.AssemblyReference.cache
