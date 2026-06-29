@@ -21,6 +21,14 @@ namespace partial_class
 
         }
 
+        // Compile Time Polymorphism 
+        // ==> method overloading (we donot care about anything except the data type of parameters and num of them ) 
+        void sum() { }
+        int sum(int n) { return n;  }
+        float sum(float n) { return n; }
+
+        double sum(double n) { return n; }
+
 
     }
 }
